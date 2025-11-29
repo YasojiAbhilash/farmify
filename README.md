@@ -56,7 +56,8 @@ A complete MERN stack platform connecting **local farmers** with **consumers**, 
 - Vite  
 - Axios  
 - React Router  
-- Context API  
+- Context API
+- Vercel
 
 ### **Backend**
 - Node.js  
@@ -71,6 +72,7 @@ A complete MERN stack platform connecting **local farmers** with **consumers**, 
 # 📁 Project Structure
 
 ## Backend Folder Structure
+```markdown
 farmify-backend/
 │── controllers/
 │── routes/
@@ -80,9 +82,10 @@ farmify-backend/
 │── index.js
 │── .env
 │── package.json
-
+```
 
 ## Frontend Folder Structure
+```markdown
 farmify-frontend/
 │── src/
 │ ├── components/
@@ -92,7 +95,7 @@ farmify-frontend/
 │── vite.config.js
 │── .env
 │── package.json
-
+```
 
 ---
 
@@ -149,34 +152,35 @@ http://localhost:5173
 # 📡 API Endpoints
 
 ## 🔐 Auth Routes
-POST /api/auth/register
-POST /api/auth/login
-GET /api/auth/me
+- POST /api/auth/register
+- POST /api/auth/login
+- GET /api/auth/me
 
 ## 👤 Users
-GET /api/users
-GET /api/users/:id
-DELETE /api/users/:id
+- GET /api/users
+- GET /api/users/:id
+- DELETE /api/users/:id
+
 
 
 ## 🛒 Products
-GET /api/products
-GET /api/products/:id
-POST /api/products
-PUT /api/products/:id
-DELETE /api/products/:id
+- GET /api/products
+- GET /api/products/:id
+- POST /api/products
+- PUT /api/products/:id
+- DELETE /api/products/:id
 
 ## 🗂 Categories
-GET /api/categories
-POST /api/categories
-DELETE /api/categories/:id
+- GET /api/categories
+- POST /api/categories
+- DELETE /api/categories/:id
 
 ## 📦 Orders
-GET /api/orders
-POST /api/orders
+- GET /api/orders
+- POST /api/orders
 
 ## 💬 Messages
-POST /api/messages
+- POST /api/messages
 
 ---
 
@@ -208,15 +212,7 @@ You can test:
 - Place order  
 
 ---
-
-# 📸 Screenshots (Add Later)
-
-You can add:
-- Login page  
-- Dashboard  
-- Product listing  
-- Orders page  
-
+ 
 ---
 
 # 🤝 Contribution
@@ -231,10 +227,10 @@ Contributions, pull requests, and feature suggestions are welcome!
 
 | Name | Role | GitHub | Linkedin |
 |------|------|--------|--------|
-| Abhilash Yasoji | Backend Developer | [@YasojiAbhilash](https://github.com/YasojiAbhilash) |
-| Bhuvaneshwar Mushke | API Testing  | [@member2](https://github.com/member2) |
-| Sathish Kuthala | Frontend Developer | [@member3](https://github.com/member3) |
-| Teja Kolupula | Frontend Developer | [@member4](https://github.com/member4) |
+| Abhilash Yasoji | Backend Developer | [@Abhilash](https://github.com/YasojiAbhilash) | [@Abhilash](https://www.linkedin.com/in/abhilash-yasoji/)
+| Bhuvaneshwar Mushke | Q/A Tester  | [@Bhuvan](https://github.com/member2) | [@Bhuvan](https://www.linkedin.com/in/bhuvaneshwar-mushke/)
+| Sathish Kuthala | Frontend Developer | [@Sathish](https://github.com/member3) | [@Sathish](https://www.linkedin.com/in/sathishkuthala/)
+| Teja Kolupula | Frontend Developer | [@Teja](https://github.com/member4) | [@Teja](https://www.linkedin.com/in/kolupula-teja-3192612b4/)
 
 
 ---
